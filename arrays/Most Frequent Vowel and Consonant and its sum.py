@@ -11,4 +11,4 @@ for ch in s:
 vowcount = max(vow.values()) if vow else 0
 conscount = max(cons.values()) if cons else 0
 
-return vowcount + conscount
+print(vowcount + conscount)
